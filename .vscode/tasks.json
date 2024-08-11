@@ -2,13 +2,13 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe build file",
+            "label": "C/C++: g++.exe build graveler.cpp",
             "command": "g++",
             "args": [
-                "${file}",
+                "${workspaceFolder}/graveler.cpp",
                 "-O3",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}/graveler.exe"
             ],
             "problemMatcher": [
                 "$gcc"
