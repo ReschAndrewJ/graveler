@@ -4,4 +4,4 @@ Open the graveler folder in VSCode and run the build task by holding Ctrl+Shift+
 
 After building, just run graveler.exe in Command Prompt from the graveler folder
 
-The program doesn't have any dependencies so you can just use whatever C++ compiler from the command line instead, just be sure to enable the -O3 flag or equivalent
+The program doesn't have any dependencies so you can just use whatever C++ compiler from the command line instead; just be sure to enable the -O3 flag or equivalent
